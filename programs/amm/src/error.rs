@@ -7,39 +7,39 @@ pub enum AmmError {
     FeePercentErr,
     #[msg("DefaultError")]
     DefaultError,
-    #[msg("Offer expired.")]
+    #[msg("Offer Expired.")]
     OfferExpired,
     #[msg("This Pool is Locked.")]
     PoolLocked,
     #[msg("Slippage Exceeded.")]
     SlippageExceeded,
-    #[msg("Overflow detected.")]
+    #[msg("Overflow Detected.")]
     Overflow,
-    #[msg("Underflow detected.")]
+    #[msg("Underflow Detected.")]
     Underflow,
-    #[msg("Invalid token.")]
+    #[msg("Invalid Token.")]
     InvalidToken,
-    #[msg("Actual liquidity is less than minimum.")]
+    #[msg("Actual Liquidity is Less than Minimum.")]
     LiquidityLessThanMinimum,
-    #[msg("No liquidity in pool.")]
+    #[msg("No Liquidity in Pool.")]
     NoLiquidityInPool,
-    #[msg("Bump error.")]
+    #[msg("Bump Error.")]
     BumpError,
-    #[msg("Curve error.")]
+    #[msg("Curve Error.")]
     CurveError,
-    #[msg("Fee is greater than 100%. This is not a very good deal.")]
+    #[msg("Fee is Greater than 100%. This is not a very good deal.")]
     InvalidFee,
     #[msg("Invalid update authority.")]
     InvalidAuthority,
     #[msg("No update authority set.")]
     NoAuthoritySet,
-    #[msg("Invalid amount.")]
+    #[msg("Invalid Amount.")]
     InvalidAmount,
-    #[msg("Invalid precision.")]
+    #[msg("Invalid Precision.")]
     InvalidPrecision,
-    #[msg("Insufficient balance.")]
+    #[msg("Insufficient Balance.")]
     InsufficientBalance,
-    #[msg("Zero balance.")]
+    #[msg("Zero Balance.")]
     ZeroBalance,
 }
 
